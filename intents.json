@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help! My good wishes are with you", "Any time! My good wishes are with you", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can cheer you up and I can give you some advices"],
+         "context": [""]
+        },
+        {"tag": "study_motivation",
+         "patterns": ["I am not able to focus in studies", "How can i focus more in studies ", "How I can improve my concentration", "Give me some advise on studying", "I don't feel like studying" ],
+         "responses": ["Push yourself, because no one else is going to do it for you.", "There are no shortcuts to any place worth going.", "The secret of getting ahead is getting started."],
+         "context": [""]
+        },
+        {"tag": "fitness_motivation",
+         "patterns": ["I have started gaining weight, I am really very tensed ", "I don't like to work out", "my body pains, I feel like giving up", "I crave for junk food and end up messing my healthy routine", "I feel guilty for eating junk food all the time but I am not able to stop myself" ],
+         "responses": ["All progress takes place outside the comfort zone.","A champion is someone who gets up when they can’t"],
+         "context": [""]
+        },
+        {"tag": "failure_motivation",
+         "patterns": ["I failed in my test today", "I try so hard but end up doing mistakes", "Why it always happens to me", "I stopped trying because I couldn't win the match", "students were teasing me because I failed in the test" ],
+         "responses": ["Success is stumbling from failure to failure with no loss of enthusiasm.", "It is a temporary detour, not a dead end.","You build on failure. You use it as a stepping stone. Close the door on the past. You don't try to forget the mistakes, but you don't dwell on it. You don't let it have any of your energy, or any of your time, or any of your space."],
+         "context": [""]
+        },
+        {"tag": "moral values",
+         "patterns": ["my parents always scolds me ,i don't like it","I get angry when they scold me"],
+         "responses": ["Parents are your well wishers. Even if they scold you , you should take a step back and think what you did wrong. Having a bigger picture of the situation will help you to get through it. "],
+         "context": [""]
+        },
+        {"tag": "bullying",
+         "patterns": ["my friends were trying to force me to perform a humiliating task","I was bullied" ],
+         "responses": ["There are times when you respect your own boundaries and confront the bullies on their humiliation tactics. People with a bullying mentality don’t always verbally express the fact that they are bullies. They sometimes reveal themselves to be bullies through their actions, this is where you speak up"],
+         "context": [""]
+        },
+        {"tag": "loneliness",
+         "patterns": ["I feel lonely", "I feel side lined among my friends","I think I don't belong here","Nobody likes me"],
+         "responses": ["We must become so alone, so utterly alone, that we withdraw into our innermost self. It is a way of bitter suffering. But then our solitude is overcome, we are no longer alone, for we find that our innermost self is the spirit, that it is God, the indivisible.", "If you will be happy with yourself, give time to yourself to grow, work upon yourself while you are alone. You will attract good thing in your life"],
+         "context": [""]
+        },
+        {"tag": "consistent",
+         "patterns": ["I am not able to stay consistent even after trying many times", "consistency is not my cup of tea", "staying consistent is so hard" , "how to stay consistent"],
+         "responses": ["The key to success is consistency. And right now, the only way for you to actually take action is to believe in yourself.","Success is the sum of small efforts, repeated day in and day out."],
+         "context": [""]
+        },
+        {"tag": "success",
+         "patterns": ["I want to be successful but I don't know if I am capable or not","How to become successful","How to become successful overnight"],
+         "responses": ["It is better to fail in originality than to succeed in imitation.","Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better."],
+         "context": [""]
+        },
+        {"tag": "life",
+         "patterns": ["I don't know what to do in my life", "I am scared if i will end up ending my life","I don't want to live"],
+         "responses": ["The purpose of our lives is to be happy. If you are happy then you will always end up attracting good things to yourself. Life is easy. It's all about the way you want to think about it."],
+         "context": [""]
+        }
+   ]
+}
